@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View, ScrollView, Image } from 'react-native';
 import Brands from './components/brandsToCrush';
+import ForAllGenders from './components/genders';
 import Nav from './components/navbar';
 import NewCollection from './components/newCollection';
 
@@ -15,6 +16,7 @@ export default function App() {
       >
         <NewCollection />
         <Brands />
+        <ForAllGenders />
       </ScrollView>
     </View>
 

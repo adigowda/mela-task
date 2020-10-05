@@ -31,3 +31,17 @@ const brandsToCrush = [
   },
 ]
 export default brandsToCrush
+
+export const forAllGenders = [
+  {
+    id: 1,
+    name: 'Men',
+    imgSrc: require('../images/men.png')
+  },
+  {
+    id: 2,
+    name: 'Women',
+    imgSrc: require('../images/women.png')
+  }
+]
+

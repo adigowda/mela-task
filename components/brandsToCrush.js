@@ -1,15 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, Dimensions, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, FlatList, TouchableOpacity } from 'react-native';
 import brandsToCrush from '../data';
+import Heading from './heading';
 
 const Brands = () => (
   <React.Fragment>
-    <Text style={styles.headerText}>
-      Brands to crush on
-    </Text>
-    <Text style={styles.bottomText}>
-      Shop our most-loved brands!
-    </Text>
+    <Heading
+      title='Brands to crush on'
+    />
     <FlatList
       numColumns={3}
       data={brandsToCrush}
@@ -46,21 +44,6 @@ const Brands = () => (
 )
 
 const styles = StyleSheet.create({
-  headerText: {
-    textTransform: 'uppercase',
-    marginLeft: 20,
-    color: '#040e35',
-    fontSize: 25,
-    fontWeight: 'bold',
-    letterSpacing: 1,
-    marginBottom: 5
-  },
-  bottomText: {
-    marginLeft: 20,
-    color: 'grey',
-    fontSize: 20,
-    marginBottom: 10
-  },
   itemWrapper: {
     marginBottom: 30,
     width: '30%'
