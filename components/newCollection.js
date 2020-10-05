@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, Dimensions, TouchableHighlight } from 'react-native';
+import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 
 const NewCollection = () => {
   const { width, height } = Dimensions.get("window")
@@ -27,12 +27,15 @@ const NewCollection = () => {
 
       <View style={styles.offerTextWrapper}>
         <Text style={styles.offerText}>
-          Save upto{"\n"} <Text
+          Save upto{"\n"}
+          <Text
             style={{
               fontWeight: 'bold',
               fontSize: 30
-            }}
-          >45%</Text> off
+            }}>
+            45%
+            </Text>
+             off
       </Text>
       </View>
     </View>
