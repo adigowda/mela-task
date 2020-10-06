@@ -45,3 +45,25 @@ export const forAllGenders = [
   }
 ]
 
+export const hoodies = [
+  {
+    id: 1,
+    name: 'Hoodie',
+    imgSrc: require('../images/hoodie.png')
+  },
+  {
+    id: 2,
+    name: 'Woolen Hoodie',
+    imgSrc: require('../images/woolen_hoodie.png')
+  },
+  {
+    id: 3,
+    name: 'Sweatshirt',
+    imgSrc: require('../images/sweatshirt.png')
+  },
+  {
+    id: 4,
+    name: 'Round Neck',
+    imgSrc: require('../images/round_neck.png')
+  }
+]

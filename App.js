@@ -5,6 +5,7 @@ import Brands from './components/brandsToCrush';
 import ForAllGenders from './components/genders';
 import Nav from './components/navbar';
 import NewCollection from './components/newCollection';
+import ShopByType from './components/shopByType';
 
 export default function App() {
   return (
@@ -17,9 +18,9 @@ export default function App() {
         <NewCollection />
         <Brands />
         <ForAllGenders />
+        <ShopByType />
       </ScrollView>
     </View>
-
   );
 }
 
